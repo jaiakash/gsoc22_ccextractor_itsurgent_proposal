@@ -1,4 +1,4 @@
-﻿![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.001.png)
+﻿![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.001.png)
 
 It’s Urgent - Flutter App
 
@@ -62,17 +62,17 @@ App implementation is divided into the following **Milestones**
   - Since this app would be published on the **Google Playstore**, I would start preparing assets like icons.
   - **Finalise deadline and milestones** with the mentor and modify if any need arises.
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.002.png)
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.002.png)
 
 - **MILESTONE 1 (June 13 to June 22) - Discussion on the design and workflow of the app and setup of the basic dialer UI**
-  - ![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.003.png)![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.004.png)
+  - ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.003.png)![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.004.png)
   - Coding officially begins
   - Setup the flutter project and repo on Github.
   - Create the app's design and get feedback on the plans from the mentor and any modifications by the mentor if given.
   - After getting confirmation for the design, I will go on coding part of the dialer UI of the app in the second week. The app will get all the contacts from users' contact lists and show them in the app. Users can choose any saved contact or dial a number for calling.
 
 - **MILESTONE 2 (June 22 to July 1)- Firebase server setup**
-  - ![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.005.png)
+  - ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.005.png)
 
 - Setup the **firebase project** and set up **Firebase Cloud Messaging** and **Firebase Firestore**.
 - Also, learn about the firestore database and research its querying and scaling abilities.
@@ -80,24 +80,24 @@ App implementation is divided into the following **Milestones**
 - **Firebase Firestore** would be used for storing the data since its better **integration with android** and **improved querying** compared to the firebase's real-time DB.
 - Each user would have their unique id linked with the phone number. We can send notifications and query users using that id. We can implement as explained in this blog - [link](https://medium.com/firebase-developers/build-a-transactional-push-notifications-system-using-only-firebase-2b792bb25a60)
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.006.png)
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.006.png)
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.007.png)
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.007.png)
 
 - **MILESTONE 3 (July 1 to July 12)- Auth and sign in (email and OAuth)**
   - This week will go on coding the auth and sign in for the user. Authentication would be done by phone verification. <https://firebase.flutter.dev/docs/auth/phone/>
-  - ![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.008.png)
+  - ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.008.png)
   - **Google** and **Facebook OAuth** would also be implemented for easy sign-in.
   - The profile data and phone number would be saved on the server.
 
 - **MILESTONE 4 (July 12 to July 29)- Decide urgency message and rating**
   - Setup **broadcast receiver** whenever a call is received, and a call is made, and display an appropriate notification regarding that.
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.009.png)![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.010.png)
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.009.png)![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.010.png)
 
 - Set the **urgency message and rating for any call**. The receiver will get a notification of the message and rating if the user has installed the app or will get a text message to install the app.
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.011.png)
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.011.png)
 
 - The notification would be delivered by [Firebase cloud messaging.](https://firebase.flutter.dev/docs/messaging/overview)
 - Discuss the required changes for the completed milestones with the mentors.
@@ -110,7 +110,7 @@ App implementation is divided into the following **Milestones**
   - It would be implemented by filtering out the rating of incoming call. If urgency rating is more than the incoming call rating, then display the notification other wise not and call the call.
   - Add app to quick tiles of phone for easy access. User can enable and disable app from quick settings only. [Blog](https://medium.com/android-news/develop-a-custom-tile-with-quick-settings-tile-api-74073e849457)
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.012.png)
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.012.png)
 
 - **MILESTONE 6 (August 12 to August 22) - Final testing on devices and publishing on Play store**
   - By this time mentor would approved the design of app. Before uploading on play store, i will finish the final icon, banner, screenshot, and description needed while uploading on play store.
@@ -121,14 +121,14 @@ App implementation is divided into the following **Milestones**
 - **MILESTONE 7 (August 22 to September 6) - Show floating UI when the user makes a call from any dialer app.**
   - App would show **floating UI (android)** when user calls from any dialer app. User can write the reason for call and rating of urgency. Package - <https://pub.flutter-io.cn/packages/system_alert_window>
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.013.png)
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.013.png)
 
 - Final testing of app on various devices.
 - **Blog post for the app and my gsoc experience till date.**
 - **Release app on play store.**
 - Hand over all the app, repo and firebase server config to the mentor for final evaluation
 
-![](Assests/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.014.png) 
+![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.014.png) 
 
 - **Optional MILESTONE** 
   - **Automatic CI/CD for repo for releasing builds**
