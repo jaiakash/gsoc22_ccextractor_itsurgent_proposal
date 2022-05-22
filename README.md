@@ -64,14 +64,14 @@ App implementation is divided into the following **Milestones**
 
 ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.002.png)
 
-- **MILESTONE 1 (June 13 to June 22) - Discussion on the design and workflow of the app and setup of the basic dialer UI**
+- **MILESTONE 1 (June 13 to June 26)  - Discussion on the design and workflow of the app and setup of the basic dialer UI**
   - ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.003.png)![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.004.png)
   - Coding officially begins
   - Setup the flutter project and repo on Github.
   - Create the app's design and get feedback on the plans from the mentor and any modifications by the mentor if given.
   - After getting confirmation for the design, I will go on coding part of the dialer UI of the app in the second week. The app will get all the contacts from users' contact lists and show them in the app. Users can choose any saved contact or dial a number for calling.
 
-- **MILESTONE 2 (June 22 to July 1)- Firebase server setup**
+- **MILESTONE 2 (June 27 to July 12)- Firebase server setup**
   - ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.005.png)
 
 - Setup the **firebase project** and set up **Firebase Cloud Messaging** and **Firebase Firestore**.
@@ -84,13 +84,13 @@ App implementation is divided into the following **Milestones**
 
 ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.007.png)
 
-- **MILESTONE 3 (July 1 to July 12)- Auth and sign in (email and OAuth)**
+- **MILESTONE 3 (July 12 to July 26) - Auth and sign in (email and OAuth)**
   - This week will go on coding the auth and sign in for the user. Authentication would be done by phone verification. <https://firebase.flutter.dev/docs/auth/phone/>
   - ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.008.png)
   - **Google** and **Facebook OAuth** would also be implemented for easy sign-in.
   - The profile data and phone number would be saved on the server.
 
-- **MILESTONE 4 (July 12 to July 29)- Decide urgency message and rating**
+- **MILESTONE 4 (July 26 to August 21)- Decide urgency message and rating**
   - Setup **broadcast receiver** whenever a call is received, and a call is made, and display an appropriate notification regarding that.
 
 ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.009.png)![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.010.png)
@@ -103,22 +103,24 @@ App implementation is divided into the following **Milestones**
 - Discuss the required changes for the completed milestones with the mentors.
 - All the features would have been tested before, but now the app would be tested as whole in the **production environment**. Ensuring that none of code is breaking and will be solving any issue raised by mentor.
 - By the end of the first week (24th July), the **basic version of app** would be ready in according to phase 1 evaluation.
-- The features till that would be documented and i will post a **blog** for progress made till phase 1 **(Evaluation time July 25 to July 29).**
+- The features till that would be documented and i will post a **blog** for progress made till phase 1 **(Evaluation time August 15 to August 19).**
 
-- **MILESTONE 5 (July 30 to August 11) - Feature “urgent only notification”**
+My college would open at this time and internship season would also start, that's why i have given 1 month time for this milestone.
+
+- **MILESTONE 5 (August 22 to September 10) - Feature “urgent only notification”**
   - Users can set “**notify for urgent calls only**” basically setting up the minimum rating for a call, so that he/she gets a notification. For example, the user has to go to a meeting. Then they can set min rating to 8/10, so for only very urgent call they get the notification. By **default,** it would be set to 5/10.
   - It would be implemented by filtering out the rating of incoming call. If urgency rating is more than the incoming call rating, then display the notification other wise not and call the call.
   - Add app to quick tiles of phone for easy access. User can enable and disable app from quick settings only. [Blog](https://medium.com/android-news/develop-a-custom-tile-with-quick-settings-tile-api-74073e849457)
 
 ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.012.png)
 
-- **MILESTONE 6 (August 12 to August 22) - Final testing on devices and publishing on Play store**
+- **MILESTONE 6 (September 11 to September 25)  - Final testing on devices and publishing on Play store**
   - By this time mentor would approved the design of app. Before uploading on play store, i will finish the final icon, banner, screenshot, and description needed while uploading on play store.
   - The app review takes time, so by that time i will start writing the **blog post**.
   - App is almost ready, the **app would be listed on play store** for “**early access**”. 
   - **Firebase Analytics** would also be setup for app. It provides many analytics tool built-in like **crashlytics**, **logging**, etc. I would see where user are struggling and try to improve in following weeks.
 
-- **MILESTONE 7 (August 22 to September 6) - Show floating UI when the user makes a call from any dialer app.**
+- **MILESTONE 7  (September 25 to October 15) - Show floating UI when the user makes a call from any dialer app.**
   - App would show **floating UI (android)** when user calls from any dialer app. User can write the reason for call and rating of urgency. Package - <https://pub.flutter-io.cn/packages/system_alert_window>
 
 ![](Assets/Aspose.Words.cc97697c-63fc-481d-9044-2d20a7c2bcbe.013.png)
@@ -216,7 +218,7 @@ An AI-based strategy game where user code their bot to attack other enemies whil
 
 **Commitments:**
 
-Most of the GSOC coding period lies during my college semester break so that I would work full time on the project. Only last month (August), I would be having my college classes, i would compensate it working on free time in weekends. I’m comfortable working anytime during this period. There won't be any gap or absences as such but in case of any emergency, I would inform my mentor beforehand.
+Initial first 2 months would be lies in my college semester break, so i would working full time on this project at that time. The month of August would be hectic for me, I would be returning to campus and my college internship season would start. That's why i have given almost 1 month to milestone 4, for compensating time. There won't be any other gap or absences as such but in case of any emergency, I would inform my mentor beforehand.
 
 **Weekly Commitment:** **40-50 hours**
 
